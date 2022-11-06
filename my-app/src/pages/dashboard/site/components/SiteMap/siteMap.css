@@ -1,0 +1,4 @@
+.is-drawing {
+  cursor: -webkit-crosshair !important;
+  cursor: crosshair !important;
+}

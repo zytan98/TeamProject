@@ -1,0 +1,17 @@
+.maintenance-header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.button--visible {
+  height: 16px !important;
+  padding: 0 7px !important;
+  font-size: 12px !important;
+  border-radius: 16px !important;
+  visibility: visible !important;
+}
+
+.button--success {
+  background-color: #4bb543;
+}

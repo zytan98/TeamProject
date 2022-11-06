@@ -1,0 +1,18 @@
+@import '~antd/dist/antd.css';
+
+.Maintenance-summary-card .ant-card-body {
+  width: 70%;
+  padding: 15px 24px;
+  box-shadow: 0 4px 8px -4px rgb(120, 120, 120);
+}
+
+.ant-card.ant-card-bordered.Maintenance-summary-card {
+  border: none;
+}
+
+.Maintenance-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}

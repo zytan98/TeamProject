@@ -1,0 +1,50 @@
+.zoom-control {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  margin: 5px 10px;
+}
+
+.zoom-control button {
+  margin: 3px;
+}
+
+.react-transform-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.drag-cursor {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.site-map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.building-selected-wrapper {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+.btn-update {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px 10px;
+}
+
+.update-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80%;}
+

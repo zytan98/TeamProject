@@ -1,0 +1,32 @@
+.graph-card {
+  width: 100%;
+  height: 100%;
+  /* margin: 20 20 20 20; */
+  padding: 0px;
+  box-shadow: 0 4px 8px -4px black;
+}
+.graph-card > .ant-card-head {
+  display: flex;
+  justify-content: flex-end;
+  width: 101%;
+  height: 30px;
+  min-height: auto;
+  margin-left: -1px;
+  padding: 10px;
+}
+.graph-card > .ant-card-body {
+  height: calc(100% - 30px);
+  padding-top: 30px;
+}
+.graph-card__graph-wrapper {
+  height: 100%;
+}
+.graph-card__graph-wrapper > div {
+  height: 100%;
+}
+.graph-card__body--title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
